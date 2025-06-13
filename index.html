@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Pest Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <nav>
+        <h1>Elite Pest Management</h1>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html">login Here</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="images/hero-banner.png" alt="[Replace with banner image showing pest control team or home exterior]" />
+      <div class="hero-text">
+        <h2>Protecting Your Home from Unwanted Guests</h2>
+        <p>Fast, effective, and eco-friendly pest control solutions.</p>
+        <button onclick="scrollToContact()">Get a Quote</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="all-services">
+        <div class="service">
+            <img src="images/residential-pest-control.jpg" alt="[Replace with image of ants, termites, or bugs]" />
+            <h3>Residential Pest Control</h3>
+            <p>Safe treatments for ants, roaches, spiders, and more.</p>
+        </div>
+        <div class="service">
+            <img src="images/beehive.jpg" alt="[Replace with image of commercial building]" />
+            <h3>Commercial Services</h3>
+            <p>Discreet, effective pest control for offices and storefronts.</p>
+        </div>
+        <div class="service">
+            <img src="images/mouse-trap.jpg" alt="[Replace with image of rodent or trap]" />
+            <h3>Rodent Removal</h3>
+            <p>Humane solutions to keep your space rodent-free.</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Elite Pest Management. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
