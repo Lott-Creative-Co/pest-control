@@ -275,8 +275,8 @@ footer {
     }
 
     nav ul {
-        flex-direction: column;
-        gap: 0.5rem;
+        /* flex-direction: column; */
+        gap: 1.5rem;
     }
 
     .all-services {
