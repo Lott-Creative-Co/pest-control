@@ -132,6 +132,21 @@ section {
 }
 
 #exterior-treatments {
+    /* background-color: #CEE7D6; */
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    gap: 2rem;
+}
+#exterior-treatments div {
+    margin-top: 12%;
+}
+#exterior-treatments img {
+    width: 30%;
+}
+
+#interior-treatments {
     background-color: #CEE7D6;
     padding: 4rem;
     padding-left: 6rem;
