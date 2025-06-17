@@ -14,7 +14,7 @@
         <ul>
           <li><a href="#services">Services</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact-form">Contact</a></li>
           <li><a href="login.html">login Here</a></li>
         </ul>
       </nav>
@@ -55,7 +55,7 @@
     
   
   <section class="interior-exterior-treatments">
-    <div id="exterior-treatments">
+    <div class="exterior-treatments">
       <img src="exterior-treatments.png" alt="image placeholder">
       <div>
         <h2 class="interior-exterior">The best choice for your pest control needs.</h2>
@@ -80,21 +80,16 @@
     </div>
   </section>
 
-  <!-- <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required />
+  <section class="satisfaction-guarantee">
+    <div class="exterior-treatments">
+      <div>
+        <h2 class="interior-exterior">The best choice for your pest control needs.</h2>
+        <p>We guarantee satisfaction to all of our customers. What does this mean? It means that we promise to get rid of your pests by providing results and an incredible customer experience. If we fail to provide those results, we promise to resolve the issue at no cost to you. This means we will return and re-treat as many times as we need to get the job done right at no cost to you.</p>
+      </div>
+      <img src="exterior-treatments.png" alt="image placeholder">
+    </div>
+  </section>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </section> -->
   <section id="contact-form">
     <div class="contact-container">
       <h2>Contact Us</h2>
@@ -146,5 +141,13 @@
   </footer>
 
   <script src="script.js"></script>
-</body>
+  <script>
+    function scrollToContact() {
+      const contactSection = document.getElementById("contact-form");
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  </script>
+</body >
 </html>

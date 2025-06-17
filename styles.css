@@ -131,7 +131,7 @@ section {
     border-radius: 4px;
 }
 
-#exterior-treatments {
+.exterior-treatments {
     /* background-color: #CEE7D6; */
     padding: 2rem;
     padding-left: 6rem;
@@ -139,12 +139,9 @@ section {
     display: flex;
     gap: 2rem;
 }
-#exterior-treatments div {
-    margin-top: 4%;
-}
-#exterior-treatments img {
+
+.exterior-treatments img {
     width: 30%;
-    /* height: 80%; */
 }
 
 #interior-treatments {
