@@ -133,14 +133,14 @@ section {
 
 #exterior-treatments {
     /* background-color: #CEE7D6; */
-    padding: 4rem;
+    padding: 2rem;
     padding-left: 6rem;
     padding-right: 6rem;
     display: flex;
     gap: 2rem;
 }
 #exterior-treatments div {
-    margin-top: 12%;
+    margin-top: 4%;
 }
 #exterior-treatments img {
     width: 30%;
@@ -153,6 +153,12 @@ section {
     padding-right: 6rem;
 }
 
+
+.interior-exterior-treatments {
+    background-color: #bfd4c6;
+    /* color: aliceblue; */
+}
+
 #about img {
     width: 100%;
     max-height: 300px;
@@ -161,7 +167,7 @@ section {
     margin: 1rem 0;
 }
 
-#contact {
+/* #contact {
     text-align: center;
 }
 
@@ -182,6 +188,65 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+} */
+
+/* Contact Form */
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 100%; */
+    max-width: 500px;
+    margin: auto;
+}
+.contact-container h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+.success-message {
+    color: green;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
 }
 
 button[type="submit"] {
@@ -242,6 +307,11 @@ footer {
     .about-page {
         display: flex;
         flex-direction: column;
+    }
+
+    #exterior-treatments {
+        flex-direction: column;
+        padding: 0;
     }
 }
 
