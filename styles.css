@@ -308,9 +308,15 @@ footer {
         flex-direction: column;
     }
 
-    #exterior-treatments {
+    .exterior-treatments {
+        display: flex;
         flex-direction: column;
         padding: 0;
+        justify-content: center;
+    }
+    .exterior-treatments img {
+        width: 70%;
+        margin: auto;
     }
 }
 
