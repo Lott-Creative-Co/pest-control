@@ -1,7 +1,7 @@
  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
         // Initialize EmailJS with your public key
-        emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+        emailjs.init("bfpBWEYZGMbwVtQAT"); // Replace with your EmailJS public key
 
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
