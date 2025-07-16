@@ -34,7 +34,7 @@ nav {
 .titleLogo {
     display: flex;
     align-items: center; /* Vertically center logo and title */
-    gap: 0.5rem; /* Add small spacing between logo and title */
+    gap: 2rem; /* Add small spacing between logo and title */
 }
 
 .logo {
@@ -45,6 +45,8 @@ nav {
 header h1 {
     margin: 0;
     font-size: 1.5rem;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 nav ul {
